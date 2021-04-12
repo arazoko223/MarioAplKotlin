@@ -17,5 +17,6 @@ class MainActivity : AppCompatActivity() {
         val nama = namaEditText.text.toString()
 
         val toast = Toast.makeText(applicationContext, nama, Toast.LENGTH_SHORT)
+        toast.show()
     }
 }
